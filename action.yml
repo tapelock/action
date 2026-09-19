@@ -9,10 +9,8 @@ inputs:
   version:
     description: >-
       tapelock CLI version to install, as a Go module version (e.g. v0.1.0).
-      Defaults to the latest commit on the default branch, pin this for
-      reproducible CI once tapelock starts tagging releases.
     required: false
-    default: 'latest'
+    default: 'v0.1.0'
   args:
     description: >-
       Extra arguments passed through to every `tapelock check` call, e.g.

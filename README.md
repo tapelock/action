@@ -5,6 +5,8 @@ Run Tapelock in GitHub Actions.
 The action installs Tapelock, runs your configured checks, and exposes the
 result through the GitHub Actions workflow.
 
+**Status:** v0.1.0 - early, expect breaking changes to inputs and behavior.
+
 ## Usage
 
 ```yaml
@@ -20,7 +22,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - uses: tapelock/action@v1
+      - uses: tapelock/action@v0.1.0
         with:
           cassette: cassettes/
 ```
