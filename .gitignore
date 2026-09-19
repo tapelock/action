@@ -1,0 +1,8 @@
+# Go
+*.test
+*.out
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
